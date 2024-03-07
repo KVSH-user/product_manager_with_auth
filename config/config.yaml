@@ -1,0 +1,15 @@
+env: "dev"
+http_server:
+  address: "0.0.0.0:8001"
+  timeout: 4s
+  idle_timeout: 60s
+postgres:
+  host: "db"
+  port: "5432"
+  user: "postgres"
+  password: "qwerty"
+  db_name: "postgres"
+auth:
+  jwt_secret: "Hdsjdada727dad8"
+api:
+  url: "https://randomall.ru/api/gens/1818"
